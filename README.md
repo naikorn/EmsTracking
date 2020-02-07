@@ -23,12 +23,11 @@ public function callTracking(){
   return $tracking->getItems($barcode);
 }
 
-
-...
 ```
 <p>ข้อมูลที่ได้กลับมา</p>
+
 ```php
-[
+
   "EY145587896TH"=>[
     {
       "barcode": "EY145587896TH",
@@ -96,5 +95,5 @@ public function callTracking(){
       "signature": "https://trackimage.thailandpost.co.th/f/signature/QDI3NDcwYjVzMGx1VDMz/QGI1c0VJMGx1VDMx/QGI1czBsVEh1VDM0/QGI1czBsdTUwODZUMzI="
     }
   ]
-]
+
 ```
