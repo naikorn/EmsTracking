@@ -3,6 +3,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## วิธีการติดตั้ง
+<p>แก้ไขไฟล์ composer.json</p>
+
+```php
+"require": {
+    "thavirat/emstracking": "^1.0.0"
+}
+    
+"repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/thavirat/EmsTracking.git"
+    }
+]
+```
+
+```php
+composer update
+```
+## ขั้นตอนการใช้งาน
 <p>ขั้นตอนแรกให้ดำเนินการสมัครเป็นสมาชิกกับทางไปรษณย์ไทยก่อน <a href="https://track.thailandpost.co.th/login">ไปรษณีย์ไทย</a> จากนั้นทำการสร้างรหัส token แล้วนำมาตั้งค่าไว้ที่ไฟล์ env โดยกำหนดตัวแปรชื่อว่า TOKEN_EMS</p>
 
 ```php
